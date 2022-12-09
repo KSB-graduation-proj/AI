@@ -1,0 +1,40 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: /home/ubuntu/yolov5/Products/images/dataset1/  # dataset root dir
+train: /home/ubuntu/yolov5/Products/images/dataset1/  # train images (relative to 'path') 118287 images
+val: /home/ubuntu/yolov5/Products/images/dataset1/  # val images (relative to 'path') 5000 images
+
+
+# Classes
+names:
+  0: binch
+  1: oreoblack
+  2: oreored
+  3: cushcush
+  4: gosomi
+  5: yegamcheese
+  6: oreothinstaramisu
+  7: oreothinsvanillamooth
+  8: chocchochanchocochip
+  9: chicchoc
+  10: yuginongblueberrytt
+  11: yuginongaroniatt
+  12: yuginongsiguemchitt
+  13: yuginongbananatt
+  14: yuginongplaneyogurtcube
+  15: yuginongbluberryyogurtcube
+  16: yuginongbananayogurtcube
+  17: yuginongddalgiyogurtcube
+  18: finggercheeseblueberry
+  19: finggercheeseorigin
+  20: finggercheeseorigin
+
+  
