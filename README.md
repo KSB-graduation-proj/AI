@@ -23,3 +23,8 @@ Ultralytics에서 설계한 [yolov5모델](https://github.com/ultralytics/yolov5
 
 W&B 이용하여 진행 중
 
+## 팀원
+Coop-go AI 개발 팀원
+|김정원|
+|:---:|
+|AI|
